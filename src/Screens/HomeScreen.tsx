@@ -10,6 +10,8 @@ import { styles } from '../Styles/HomeStyles';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Home'>;
 
+// Home screen = dashboard.
+// It shows the device cards and lets the user open a selected device.
 export default function HomeScreen({ navigation }: Props) {
   return (
     <SafeAreaView style={styles.safeArea} edges={['top']}>

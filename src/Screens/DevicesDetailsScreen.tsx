@@ -9,6 +9,8 @@ import { styles } from '../Styles/DevicesDetailsStyles';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'DeviceDetails'>;
 
+// Device details screen = selected device information.
+// It receives a device object from navigation and displays its details.
 export default function DeviceDetailsScreen({ navigation, route }: Props) {
   const { device } = route.params;
 

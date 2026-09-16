@@ -14,6 +14,8 @@ export type RootStackParamList = {
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
+// This file controls the screen flow of the app.
+// It tells React Navigation: "Home screen -> Devices screen -> Device details screen."
 export default function StackNavigation() {
   return (
     <NavigationContainer>

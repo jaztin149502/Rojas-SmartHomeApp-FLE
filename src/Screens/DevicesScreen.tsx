@@ -10,6 +10,8 @@ import { styles } from '../Styles/DevicesStyles';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Devices'>;
 
+// Devices screen = full list of all devices.
+// This screen lets the user choose a device and view its details.
 export default function DevicesScreen({ navigation }: Props) {
   return (
     <SafeAreaView style={styles.safeArea} edges={['top']}>

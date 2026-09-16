@@ -1,3 +1,5 @@
+// This file stores the app's smart-home data.
+// Other screens import this data instead of creating their own device objects.
 export type Device = {
   id: string;
   name: string;
@@ -12,6 +14,7 @@ export type Device = {
   powerUsage: string;
 };
 
+// Each object represents one smart device that can be shown on the dashboard.
 export const devices: Device[] = [
   {
     id: 'living-room-light',
