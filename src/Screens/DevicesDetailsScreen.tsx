@@ -21,6 +21,8 @@ export default function DeviceDetailsScreen({ navigation, route }: Props) {
         <View style={styles.header}>
           <Pressable accessibilityLabel="Go back" onPress={() => navigation.goBack()} style={styles.backButton}>
             <Ionicons name="arrow-back" size={22} color="#20304A" />
+
+            
           </Pressable>
           <Text style={styles.headerTitle}>Device details</Text>
           <View style={styles.headerSpacer} />

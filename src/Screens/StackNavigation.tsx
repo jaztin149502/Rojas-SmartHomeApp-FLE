@@ -23,6 +23,7 @@ export default function StackNavigation() {
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Devices" component={DevicesScreen} />
         <Stack.Screen name="DeviceDetails" component={DeviceDetailsScreen} />
+      
       </Stack.Navigator>
     </NavigationContainer>
   );

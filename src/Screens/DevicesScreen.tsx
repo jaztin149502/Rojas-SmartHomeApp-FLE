@@ -39,7 +39,6 @@ export default function DevicesScreen({ navigation }: Props) {
             <Text style={styles.summaryBadgeText}>{devices.length}</Text>
           </View>
         </View>
-
         <View style={styles.list}>
           {devices.map((device) => (
             <Pressable
